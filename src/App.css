@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+:root{
+  --mainDark:#232528;
+  --mainGrey:rgba(109,109,109);
+  --mainLightGrey:rgba(172,172,172);
+  --mainWhite:#f3f3f3;
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainYellow:#ffa400;
+}
+body{
+  font-family:'Times New Roman', Times, serif !important;
+  background: var(--mainWhite) !important;
+color: var(--mainDark)
+}
+.text-title{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue {
+  color:var(--mainBlue);
+}
+.text-bright {
+  color:var(--lightBlue);
+}
+.navbar-toggler:focus{
+  outline: none;
+}
+.navbar-toggler{
+  border:none; 
+}
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite);
+}
+.cart-icon {
+  cursor:pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow); 
+}
